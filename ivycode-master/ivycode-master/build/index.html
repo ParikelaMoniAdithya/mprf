@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>profile</title>
+    <style>
+        .mainHeading{
+                font-size: 30px;
+                font-weight: bold;
+                text-align:center;
+                color:black;
+            }
+        .card{
+                height:380px;
+                width:22%;
+                background-color:#4f93bc;
+                float:left;
+                margin-left:2%;
+                color:white;
+                text-align: center;
+            }
+        .cardImage{
+                height:50%;
+                width:100%
+            }
+            .add{
+                color:black;
+                float: left;
+                margin-left: 4%;
+            }
+            
+    </style>
+    </head>
+    <body>
+        <header>
+            <img src="download.png" alt="HTML logo" width="50" height="50">
+        </header>
+        <div style="border: dotted 2px #383a7b; background-color: #ccc5c5; color:#000000; text-align: center;">
+            <h2>My Personal Information</h2>
+            <p><b>First Name:</b>  Parikela </p>
+            <p><b>Middle Name:</b> Moni </p>
+            <p><b>Last Name:</b> Adithya </p>            
+            <p><b>DOB:</b> 20-09-1999</p>
+            <p><b>Educational Qualification:</b> <abbr title="Bachelor of technology">B.Tech</abbr></p>
+            <p><b>YOP:</b> <mark>2021</mark></p>
+            <p><b>Experience:</b> Trainee at  <u>IVY comptech</u></p>
+        </div> 
+        <div class="mainHeading">
+            Skills
+        </div>
+        <div class="card">
+            <img src="java.png" alt="manali" class="cardImage"/>
+            <h1>Java</h1>
+            <p>
+                Worked on java project as a part of training.
+            </p>
+        </div>
+        <div class="card">
+            <img src="python.png" alt="amsterdam" class="cardImage"/>
+            <h1>Python</h1>
+            <p>
+               worked on python project as a part of academic career and 
+            </p>
+        </div>
+        <div class="card">
+            <img src="machine-learnin.png" alt="helsinki" class="cardImage"/>
+            <h1>Machine Learning</h1>
+            <p>
+                Helsinki is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+            </p>
+        </div>
+        <div class="card">
+            <img src="AI.png" alt="london" class="cardImage"/>
+            <h1>Artificial Intelligence</h1>
+            <p>
+                London is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry
+                </p>
+        </div>
+    <div class="mainHeading">
+            Contact Details
+    </div>
+        <div class="add">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d122165.62950751308!2d80.69984749999999!3d16.8919186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1637214339264!5m2!1sen!2sin" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="add">
+            <p>Mobile  :  +91 7989258125</p>
+            <p>E-mail : <a href="mailto:moniadithya@gmail.com">moniadithya@gmail.com</a></p>
+        </div>
+        <div class="add">
+            <form action="post">
+                <h2>Contact US</h2>
+                    <label for="name">Name</label> <input type="text" required><br><br>
+                    <label for="email id"> Email</label> <input type="email" id="email" name="email" placeholder="abcd@example.com" required> <br><br>
+                   <label for="phone">Contact </label>
+                   <input type="tel" id="phone" name="phone" placeholder="1234567890" pattern="[0-9]{10}" required><br><br> 
+                   <label for="message"> Message</label>
+                   <textarea id="message" name="message" rows="5" cols="60">
+                </textarea><br><br>
+                   <input type="submit">
+            </form>
+        </div>
+            <footer>
+                <center>
+                <p>
+                    © CopyRight All Rights Reserved
+                </p>
+            </center>
+            </footer>
+        </body>
+</html>
